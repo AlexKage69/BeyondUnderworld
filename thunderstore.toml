@@ -22,10 +22,6 @@ source = "./CHANGELOG.md"
 target = "./CHANGELOG.md"
 
 [[build.copy]]
-source = "./CHANGELOG.md"
-target = "./CHANGELOG.md"
-
-[[build.copy]]
 source = "./LICENSE"
 target = "./LICENSE"
 
@@ -38,7 +34,7 @@ target = "./plugins"
 # target = "./plugins_data"
 
 [publish]
-repository = "https://github.com/AlexKage69/BeyondUnderworld"
+repository = "https://thunderstore.io"
 communities = [ "hades-ii", ]
 
 [publish.categories]

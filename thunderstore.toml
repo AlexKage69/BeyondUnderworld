@@ -6,7 +6,7 @@ namespace = "AlexKage"
 name = "BeyondUnderworld"
 versionNumber = "0.0.1"
 description = "Hades 2 Mod adding new content such as, Weapons, Mechanics, Biome and Story."
-websiteUrl = "https://thunderstore.io"
+websiteUrl = "https://github.com/AlexKage69/BeyondUnderworld"
 containsNsfwContent = false
 [package.dependencies]
 NikkelM-Zagreus_Journey = "1.3.0"
@@ -18,14 +18,30 @@ readme = "./README.md"
 outdir = "./build"
 
 [[build.copy]]
-source = "./dist"
-target = ""
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
 
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[[build.copy]]
+source = "./src"
+target = "./plugins"
+
+# [[build.copy]]
+# source = "./data"
+# target = "./plugins_data"
 
 [publish]
-repository = "https://thunderstore.io"
-communities = [ "hades2", ]
+repository = "https://github.com/AlexKage69/BeyondUnderworld"
+communities = [ "hades-ii", ]
+
 [publish.categories]
-hades2 = [ "Mods", "Gameplay", ]
+hades-ii = [ "mods", "gameplay", ]
 
 

@@ -1,0 +1,11 @@
+{
+  "namespace": "AlexKage",
+  "name": "BeyondUnderworld",
+  "description": "Hades 2 Mod adding new content such as, Weapons, Mechanics, Biome and Story.",
+  "version_number": "0.0.1",
+  "dependencies": [
+    "NikkelM-Zagreus_Journey-1.3.0"
+  ],
+  "website_url": "https://github.com/AlexKage69/BeyondUnderworld",
+  "FullName": "AlexKage-BeyondUnderworld"
+}
